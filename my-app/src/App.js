@@ -8,6 +8,11 @@ import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrev
 import EventsFunctional from './components/EventsFunctional';
 import EventsClass from './components/EventsClass';
 import EventBinding from './components/EventBinding';
+import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+import NestingComponents from './components/NestingComponents';
+import MethodsAsPropsParent from './components/MethodsAsPropsParent';
+
 
 function App() {
   return (
@@ -18,8 +23,12 @@ function App() {
       <StatefulGreetingWithCallback greeting="I'm a stateful class component" name="Mike" />
       <StatefulGreetingWithPrevState greeting="I'm a stateful class component" name="Mike" />
       <EventsFunctional />
-      <EventsClass /> */}
+      <EventsClass />
       <EventBinding />
+      <ConditionalRenderingClass />
+      <ConditionalRenderingFunctional connected={true} />
+      <NestingComponents/> */}
+      <MethodsAsPropsParent />
     </div>
   );
 }
