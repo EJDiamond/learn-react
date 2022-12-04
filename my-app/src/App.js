@@ -24,6 +24,9 @@ import UseStatesWithArrays from './components/UseStatesWithArrays';
 import UseStateWithObjects from './components/UseStatesWithObjects';
 import UseEffectCounter from './components/UseEffectCounter';
 import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+import HTTPRequests from './components/HTTPRequests';
+import HTTPPost from './components/HTTPPost';
+import HTTPHooks from './components/HTTPHooks';
 
 function App() {
   return (
@@ -50,8 +53,12 @@ function App() {
       <ControlledFormHooks/>
       <UseStatesWithArrays/>
       <UseStateWithObjects />
-      <UseEffectCounter/> */}
+      <UseEffectCounter/>
       <UseEffectCounterContainer/>
+      <HTTPRequests/>
+      <HTTPPost/> */}
+      <HTTPHooks/>
+
 
 
     </div>
